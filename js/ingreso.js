@@ -6,6 +6,7 @@ class Ingreso extends Dato{
         this._id =++Ingreso.contadorIngresos;
     }
     get id(){
-        return this.id;
+        return this._id;
     }
 }
+
